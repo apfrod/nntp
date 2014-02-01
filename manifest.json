@@ -1,0 +1,14 @@
+{
+  "name": "New new tab page",
+  "description": "Override the new tab page with a quieter one",
+  "version": "0.2",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "blank.html"
+  },
+  "permissions": [
+    "topSites"
+  ],
+  "content_security_policy": "object-src 'self'; script-src 'self';",
+  "manifest_version": 2
+}
