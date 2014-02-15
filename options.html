@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Basic New Tab Page Options</title>
+    <link rel="stylesheet" href="blank.css" type="text/css">
+  </head>
+  <body>
+    <style type="text/css">
+     body {
+      font-family: sans-serif;
+     }
+     input[type=url], input[type=text] {
+      width: 25em;
+      margin-right:1em;
+     }
+     #options {
+      position: absolute;
+     }
+     #save {
+      margin-top: 1em;
+     }
+     .row {
+      margin-bottom: 0.5em;
+     }
+    </style>
+    <div id="options">
+      <div id="link_1" class="row">
+       Link: <input id="link_1_url" type="url" >
+       Text: <input id="link_1_text" type="text">
+       Color: <input id="link_1_color" type="color" value="#eeeeee">
+      </div>
+      <div id="link_2" class="row">
+       Link: <input id="link_2_url" type="url" >
+       Text: <input id="link_2_text" type="text">
+       Color: <input id="link_2_color" type="color" value="#eeeeee">
+      </div>
+      <div id="link_3" class="row">
+       Link: <input id="link_3_url" type="url" >
+       Text: <input id="link_3_text" type="text">
+       Color: <input id="link_3_color" type="color" value="#eeeeee">
+      </div>
+      <div id="link_4" class="row">
+       Link: <input id="link_4_url" type="url" >
+       Text: <input id="link_4_text" type="text">
+       Color: <input id="link_4_color" type="color" value="#eeeeee">
+      </div>
+      <button id="save">Save</button>
+    </div>
+    <div id="container">
+      <div id="middle">
+      </div>
+    </div>
+
+  </body>
+  <script src="options.js"></script>
+  <script src="blank.js"></script>
+</html>
